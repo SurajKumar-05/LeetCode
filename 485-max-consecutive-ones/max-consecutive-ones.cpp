@@ -4,10 +4,17 @@ public:
         int maxCount = 0, count = 0;
         
         for (int n : nums) {
+
+
             if (n == 1) {
+
                 count++;
                 maxCount = max(maxCount, count);
-            } else {
+
+            } 
+            
+            else {
+
                 count = 0;
             }
         }
